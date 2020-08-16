@@ -25,10 +25,7 @@ public class twoPlustwo {
         Integer[] array = (Integer[]) c.get(cache);
         array[132] = 5;
         
-        System.out.printf("%d", 2 + 2);
+        System.out.printf("2 + 2 = %d", 2 + 2);
         // TODO code application logic here
     }
 }
-
-
-  
