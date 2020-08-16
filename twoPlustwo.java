@@ -6,7 +6,7 @@
 
 /**
  *
- * @author itcom
+ * @author hasbiyama
  */
 import java.lang.reflect.Field;
 //import java.lang.reflect.InvocationTargetException;
@@ -23,7 +23,7 @@ public class twoPlustwo {
         Field c = cache.getDeclaredField("cache");
         c.setAccessible(true);
         Integer[] array = (Integer[]) c.get(cache);
-       // array[132] = 5;
+        array[132] = 5;
         
         System.out.printf("%d", 2 + 2);
         // TODO code application logic here
